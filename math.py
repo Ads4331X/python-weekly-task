@@ -1,0 +1,12 @@
+a = 3.0
+b = 5.0
+c = a + b
+d = a * b + c
+e = b **2
+f = 12 / 5
+g = 12 // 5
+print (f"{a:.1f} + {b:.1f} = {c:.1f}")
+print (f"{a:.1f} + {b:.1f} * {c:.1f} = {d:.1f}")
+print (f"{b:.1f}**2 = {e:.1f}")
+print (f"12 / 5 = {f:.1f}")
+print (f"12 // 5 = {g:d}")
