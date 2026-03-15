@@ -7,7 +7,7 @@ print the count of prime numbers in that range along with their sum.
 def is_prime(num):
     if num <= 1:
         return False
-    for i in range(2, int(num ** 0.5) + 1):
+    for i in range(2, int(num ** 0.5) + 1): # checking for factors from 2 to the square root of the number
         if num % i == 0:
             return False
     return True

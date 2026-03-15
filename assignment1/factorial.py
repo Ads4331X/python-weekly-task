@@ -6,7 +6,7 @@ message such as “Invalid input! Please enter a positive integer.”
 
 def factorial(n): # function to calculate factorial of a number
     if n == 0 or n == 1: return 1
-    else: return factorial(n - 1) * n
+    else: return factorial(n - 1) * n # using recursion to calculate factorial of n by multiplying n with the factorial of (n-1) until it reaches the base case where n is 0 or 1, which returns 1.
 
 # Taking input for the number and validating it
 while True: 
