@@ -1,0 +1,35 @@
+graph TD
+    A(["🧑‍💻 Programmer writes\nPython Code"]):::start
+
+    subgraph Input ["📥 INPUT"]
+        B["Source Code\n.py file"]:::inputBox
+    end
+
+    subgraph Process ["⚙️ PROCESSING"]
+        C["Python Compiler\nconverts to Byte Code"]:::process
+        D["Byte Code\n.pyc file"]:::byteBox
+        E["PVM - Python Virtual Machine\nInterpreter converts to\nMachine Code"]:::process
+    end
+
+    subgraph Output ["📤 OUTPUT"]
+        F["Machine Code\nexecuted by Processor"]:::output
+        G(["✅ Result shown\non Screen"]):::endNode
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    C -- "❌ Error" --> H["Fix the Code"]:::error
+    H --> A
+
+    classDef start fill:#1e3a5f,color:#fff,stroke:#f0c040,stroke-width:2px
+    classDef inputBox fill:#d4e6f1,color:#1a1a1a,stroke:#2e6da4,stroke-width:2px
+    classDef process fill:#154360,color:#fff,stroke:#f0c040,stroke-width:2px
+    classDef byteBox fill:#fef9e7,color:#1a1a1a,stroke:#f0c040,stroke-width:2px
+    classDef output fill:#1e8449,color:#fff,stroke:#f0c040,stroke-width:2px
+    classDef endNode fill:#1e8449,color:#fff,stroke:#f0c040,stroke-width:3px
+    classDef error fill:#922b21,color:#fff,stroke:#f0c040,stroke-width:2px
