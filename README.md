@@ -43,23 +43,24 @@ python filename.py
 
 ## Features Covered
 
-Arithmetic operations using functions
-CSV file reading and writing
-Class-based programming (Learner, Staff, Dish, etc.)
-Input validation and exception handling
-Games (dice guessing, number guessing)
-Mathematical computations
-Data structures (lists, dictionaries, sets)
+- Arithmetic operations using functions
+- CSV file reading and writing
+- Class-based programming (Learner, Staff, Dish, etc.)
+- Input validation and exception handling
+- Games (dice guessing, number guessing)
+- Mathematical computations
+- Data structures (lists, dictionaries, sets)
 
 ## Requirements
 
 Python 3.x
 Libraries:
-numpy
-pandas
-matplotlib
+
+- numpy
+- pandas
+- matplotlib
 
 ## Author
 
-Student Name: Adarsha Karki
-Student ID: 25068584
+- Student Name: Adarsha Karki
+- Student ID: 25068584
