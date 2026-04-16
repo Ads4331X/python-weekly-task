@@ -16,7 +16,7 @@ print(sorted_array)
 
 # reshape array
 reshaped_arr = sorted_array.reshape(3, 4) # reshape into 3x4
-print("Reshapped array of 3x4 is")
+print("Reshaped array of 3x4 is")
 print(reshaped_arr)
 
 

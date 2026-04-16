@@ -4,17 +4,22 @@ Program to generate a NumPy array and perform sum, mean, max and min operations.
 
 import numpy as np
 
-a = np.array([1, 10 ,50, 100 ,130 , 12430]) # 1d array of 6 elements
-print("The 1d array is: ", a)
+# Create array
+arr = np.array([10, 20, 30, 40, 50])
 
-sum = np.sum(a) # sum of all elements in the array
-print("The sum of the array is: ", sum)
+print("Array:", arr)
 
-mean = np.mean(a) # mean of the array
-print("The mean of the array is: ", mean)
+# Sum
+total_sum = np.sum(arr)
+print("Total Sum:", total_sum)
 
-largest = np.max(a) # largest element in the array
-print("The largest element in the array is: ", largest)
+# Mean
+mean_value = np.mean(arr)
+print("Mean:", mean_value)
 
-smallest = np.min(a) # smallest element in the array
-print("The smallest element in the array is: ", smallest)
+# Max and Min
+maximum = np.max(arr)
+minimum = np.min(arr)
+
+print("Maximum value:", maximum)
+print("Minimum value:", minimum)

@@ -37,14 +37,14 @@ plt.show()
 
 # gender vs height scatter diagram
 plt.scatter(df['gender'] , df['height'] ,c=colors)
-plt.xlabel('Gender (0=Male, 1=Female)')
+plt.xlabel('Gender ')
 plt.ylabel('Height')
 plt.title('Gender vs Height')
 plt.show()
 
 # gender vs weight scatter diagram
 plt.scatter(df['gender'], df['weight'] , c=colors)
-plt.xlabel('Gender (0=Male, 1=Female)')
+plt.xlabel('Gender')
 plt.ylabel('Weight')
 plt.title('Gender vs Weight')
 plt.show()

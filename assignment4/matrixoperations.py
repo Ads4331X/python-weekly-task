@@ -33,22 +33,20 @@ try:
     print()
 
     if A.shape == B.shape:
-        # addition
         print("Addition of matrix A and B is:")
-        print(A+B)
+        print(A + B)
         print()
-
-        # subtraction
         print("Subtraction of matrix A and B is:")
-        print(A-B)
+        print(A - B)
         print()
-    else: raise ValueError("Addition and Subtraction is not possible: Matrices must have the same dimensions.")
+    else:
+        print("\nError: Addition and Subtraction not possible: Matrices must have the same dimensions.")
 
     if A.shape[1] == B.shape[0]:
         print("Multiplication of matrix A and B is:")
         print(np.dot(A, B))
     else:
-        raise ValueError("Multiplication not possible: Columns of A must equal rows of B.")
+        print("\nError: Multiplication not possible: Columns of A must equal rows of B.")
 
 except ValueError as e:
     print("\nError:", e)

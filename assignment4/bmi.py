@@ -6,22 +6,24 @@ import pandas as pd
 
 df = pd.read_csv("health_data.csv")
 
-df['BMI'] = df['weight'] / ((df['height'] / 100) ** 2) # calculate BMI 
+# calculate BMI (height converted from cm to meters)
+df['BMI'] = df['weight'] / ((df['height'] / 100) ** 2)
 
-# function to get health status 
+# function to get health status based on BMI
 def get_health_status(bmi):
     if bmi < 18.5:
         return 'Underweight'
-    elif bmi <= 24.9:
+    elif 18.5 <= bmi <= 24.9:
         return 'Healthy range'
-    elif bmi <= 29.9:
+    elif 25 <= bmi <= 29.9:
         return 'Overweight risk'
-    elif bmi <= 34.9:
+    elif 30 <= bmi <= 34.9:
         return 'High risk of diabetes/heart disease'
-    else:
+    elif bmi >= 40:
         return 'Critical health condition'
+    else:
+        return 'Severely Obese'  
 
 df['Health_Status'] = df['BMI'].apply(get_health_status)
 
 print(df)
-
