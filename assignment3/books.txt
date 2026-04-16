@@ -1,0 +1,7 @@
+1,Python Basics,John Zelle,True
+2,Data Structures,Mark Weiss,False
+3,Machine Learning,Andrew Ng,False
+4,Operating Systems,Galvin,False
+5,Database Systems,Elmasri,True
+6,Computer Networks,Andrew Tanenbaum,True
+7,Artificial Intelligence,Stuart Russell,False
