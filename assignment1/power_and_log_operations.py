@@ -7,15 +7,6 @@ IV. Base-2 logarithm of the number
 V. The number raised to the power of 6
 """
 
-"""
-Write a program to take a single number as input and display:
-I. Cube of the number
-II. Cube root of the number
-III. Natural logarithm of the number
-IV. Base-2 logarithm of the number
-V. The number raised to the power of 6
-"""
-
 e = 2.718281828459045   # Euler's number
 ln2 = 0.6931471805599453  # Natural log of 2
 

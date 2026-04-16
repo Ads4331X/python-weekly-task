@@ -18,10 +18,6 @@ div = num1 / num2 if num2 != 0 else None
 mod = num1 % num2 if num2 != 0 else None
 exp = num1 ** num2
 
-
-
-
-
 # Displaying results in a clean format, with special handling for division by zero cases
 print("\n RESULTS ")
 
