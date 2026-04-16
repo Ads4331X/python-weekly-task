@@ -20,7 +20,7 @@ while True:
 
 country_to_find = input("Enter the country to search for: ")
 result = find_country(countries, country_to_find)
-print(result)
+print(f'Index: {result}')
 print(f"Countries: {countries}")
 
 

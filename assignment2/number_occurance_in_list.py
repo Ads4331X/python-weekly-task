@@ -16,12 +16,11 @@ def count_occurance(num_list): # function to count the occurances of each number
 test_list1 = [1, 2, 2, 3, 4, 4, 4, 5]
 test_list2 = [10, 20, 20, 30, 40, 40, 40, 50]
 test_list3 = [5, 5, 5, 5, 5]    
-test_list4 = [1, 2, 3, 4, 5]  # Added a test case with unique numbers
+test_list4 = [1, 2, 3, 4, 5]  # a test case with unique numbers
 counts1 = count_occurance(test_list1)
 counts2 = count_occurance(test_list2)
 counts3 = count_occurance(test_list3)   
-counts4 = count_occurance(test_list4)  # Count for the unique numbers test case
-
+counts4 = count_occurance(test_list4)
 
 
 print("Test List 1:", test_list1)

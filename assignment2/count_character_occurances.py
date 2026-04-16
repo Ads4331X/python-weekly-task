@@ -16,7 +16,6 @@ def key_value(sentence):
     return character_count
 
 
-# Example usage:
-sentence = "hello world"
+sentence = input("Enter a Sentence: ")
 result = key_value(sentence)
-print(result)  # Output: {'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}
+print(result)

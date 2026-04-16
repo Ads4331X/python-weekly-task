@@ -1,3 +1,12 @@
+"""
+Write a program to implement separate functions for the following mathematical operations. Each function should take two user inputs as parameters, operate, and return the result. Display the results clearly with proper formatting. Marks [2*5 = 10]
+I. Addition
+II. Multiplication
+III. Division
+IV. Floor Division
+V. Exponentiation
+"""
+
 def addition(a, b): # function to perform addition of two numbers
     return a + b
 

@@ -12,7 +12,7 @@ import random
 def dice_guessing_game():
     attempts = 0
     dice_value = random.randint(1 , 6) # Generate a random value for the dice roll from 1 to 6
-    print(dice_value)
+    print(f'For testing purpose dice number: {dice_value}')
 
 
 
@@ -23,14 +23,14 @@ def dice_guessing_game():
                 print("Please enter a number between 1 and 6.")
                 continue
             if guess == dice_value:
-                print("😊 Correct! You guessed the dice value.")
+                print("Correct! You guessed the dice value.")
                 print(f"It took you {attempts + 1} attempts to guess the correct value.")
                 break
             elif abs(guess - dice_value) == 1:
-                print("😐 Close! Your guess is off by 1.")
+                print("Close! Your guess is off by 1.")
                 attempts += 1
             else:
-                print("😞 Incorrect! Better luck next time.")
+                print("Incorrect! Better luck next time.")
                 attempts += 1
 
         except ValueError:
