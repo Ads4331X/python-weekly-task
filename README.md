@@ -20,10 +20,10 @@ This repository contains solutions for the bi-weekly assignment covering Python 
 
 ## 📁 Project Structure
 
-|-Part1/
-|-Part2/
-|-Part3/
-|-Part4/
+|-assignment1/
+|-assignment2/
+|-assignment3/
+|-assignment4/
 |requirements.txt
 |README.md
 
